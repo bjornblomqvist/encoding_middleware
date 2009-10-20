@@ -10,7 +10,7 @@ begin
     gem.email = "darwin.git@marianna.se"
     gem.homepage = "http://github.com/bjornblomqvist/encoding_middleware"
     gem.authors = ["Darwin"]
-    gem.add_development_dependency "thoughtbot-shoulda"
+    gem.files = FileList['lib/**/*.rb', 'ext/**/*','README.rdoc','LICENSE','README.rdoc','CHANGES','NOTES','VERSION','test/**/*','rails/**/*','public/**/*'].to_a  
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

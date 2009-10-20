@@ -1,6 +1,6 @@
 = encoding_middleware
 
-Description goes here.
+Sets the encoding of params to the ActionController::Base.default_charset
 
 == Note on Patches/Pull Requests
  
